@@ -1,0 +1,7 @@
+*TABLE*MULTIPLICATION*==say "Très bien, je prepare un quizz de multiplication en 5 questions" && jv_pg_initQuizzQuestion && jv_pg_quizzNextQuestion
+>*==response=$order && jv_pg_quizzNextQuestion
+>>*==response=$order && jv_pg_quizzNextQuestion
+>>>*==response=$order && jv_pg_quizzNextQuestion
+>>>>*==response=$order && jv_pg_quizzNextQuestion
+>>>>>*==response=$order && jv_pg_quizzResults
+
