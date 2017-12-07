@@ -12,7 +12,7 @@ Permet de faire des quizz de tables de multiplications.
 
 ## Usage 
 ```
-You: Fais moi une intero sur les tables de multiplications
+You: Fais moi une interro sur les tables de multiplications
 Jarvis : Très bien, je prepare un test de multiplication en 5 questions
 Jarvis : Question 1 : 7 * 8
 ....
