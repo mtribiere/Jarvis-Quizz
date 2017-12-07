@@ -4,7 +4,7 @@
 jv_pg_initQuizzQuestion(){
 
 #Definir le chemin d'acces
-chemin=${PWD}"/plugins_installed/jarvis-quizz"
+chemin=${PWD}"/plugins_installed/Jarvis-Quizz"
 
 #Effacer les resultats des precedents quizzs
 echo -n ""> $chemin/operations.txt;
@@ -31,7 +31,7 @@ done
 jv_pg_quizzNextQuestion(){
 
 #Definir le chemin d'acces
-chemin=${PWD}"/plugins_installed/jarvis-quizz";
+chemin=${PWD}"/plugins_installed/Jarvis-Quizz";
 
 #Recuperer la question courrante, afficher la suivante, et mettre a jour l'indice courrant
 typeset -i currentQuestion=$(cat $chemin/currentQuestion.txt);
@@ -67,7 +67,7 @@ echo "$currentQuestion">$chemin/currentQuestion.txt;
 jv_pg_quizzResults(){
 
 #Definir le chemin d'acces
-chemin=${PWD}"/plugins_installed/jarvis-quizz";
+chemin=${PWD}"/plugins_installed/Jarvis-Quizz";
 
 #Ajouter la dernière reponse
 echo "$response" >> $chemin/userResponses.txt
@@ -91,5 +91,5 @@ do
         fi
         let "currentLine = currentLine+1";
 done < $chemin/results.txt
-say "Fin du quizz ! Votre score est de $score sur 5";
+say "Fin du questionnaire ! Votre score est de $score sur 5";
 }
