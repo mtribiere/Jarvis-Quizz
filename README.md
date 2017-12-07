@@ -1,5 +1,5 @@
 ## Description
-(07/12/2017 Bug sur les chemins d'accès résolu (problème de majuscules))
+(07/12/2017 Bug sur les chemins d'accès résolu (problème de majuscules))\n
 (24/09/2017 Création du la première version du plugin)
 
 
